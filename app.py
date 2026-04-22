@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import io
 
-st.title("Loan Amortization Calculator\nCreated by Thiago Alcebiades")
+st.title("Loan Amortization Calculator (PRICE)\nCreated by Thiago Alcebiades")
 
 principal = st.number_input("Principal Amount ($)", min_value=0.0, value=5000.0)
 interest_rate = st.number_input("Monthly Interest Rate (e.g., 0.05 for 5%)", min_value=0.0, value=0.05)
